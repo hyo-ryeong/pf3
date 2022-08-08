@@ -1,0 +1,19 @@
+#title{
+
+}
+#title .inner{
+    background-image: url("../img/mainImage.png");
+    display: block;
+    width: 1920px;
+    height: 937px;
+    top : -99px;
+}
+#title .inner h2{
+
+}
+#title .inner p{
+    
+}
+#title .inner p>span{
+    
+}
