@@ -1,0 +1,31 @@
+#title{
+  width: 100%;
+  background-image: url(../img/mainImage.png);
+  min-height: 900px;
+  position: relative;
+}
+#title .inner{
+  width : 80%;
+  color : #fff;
+  height: 900px;
+  line-height: 1.5;
+}
+#title .inner h2{
+    font-size: 60px;
+  margin-bottom: 20px;
+}
+#title .inner h2 span{
+    
+}
+#title .inner h4{
+  font-size: 25px;
+    margin-bottom: 20px;
+  
+}
+#title .inner p{
+    font-size: 19px;
+    font-weight: lighter;
+}
+#title .inner p span{
+    color : #b39677;
+}

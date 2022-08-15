@@ -1,0 +1,87 @@
+/* industry */
+#industry {
+    position: relative;
+}
+#industry .inner {
+  
+}
+#industry .inner>*{
+  border-radius: 30px;
+}
+#industry .inner h2 {
+  
+  margin-top: 105px;
+  font-size: 60px;
+}
+#industry .inner h4 {
+  
+  margin-top: 50px;
+  font-size: 26px;
+}
+#industry .inner p {
+  
+  font-size: 20px;
+  margin-top: 20px;
+}
+#industry .inner ul.list {
+  
+  display: flex;
+  gap: 10px;
+  margin-top: 101px;
+  align-items: center;
+  width: 80%;
+}
+#industry .inner ul.list li {
+  position: relative;
+  display: flex;
+  border-radius: 45px;
+  width: 282px;
+  height: 403px;
+  width: calc(100% / 5);
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#industry .inner ul.list li>*:hover{
+  position: relative;
+  display: block;
+  background-color : #0058aa;
+  width: 282px;
+  height: 403px;
+}
+#industry .inner ul.list li>*:hover>img{
+  display: none;
+}
+#industry .inner ul.list li>*:not(h3){
+  display: none;
+}
+#industry .inner ul.list li:hover h3, #industry .inner ul.list li:hover p, #industry .inner ul.list li:hover a.more{
+  display: block;
+}
+#industry .inner ul.list li h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+#industry .inner ul.list li h3 img {
+}
+#industry .inner ul.list li p {
+  position: absolute;
+  display: none;
+  line-height: 1.5; 
+  font-size: 16px;
+  color: #fff;
+}
+#industry .inner ul.list li p::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width : 30px;
+  border-top: 2px solid #fff;
+  margin: 0 auto;
+}
+#industry .inner ul.list li a.more {
+  position: absolute;
+  display: none;
+  color: #fff;
+}

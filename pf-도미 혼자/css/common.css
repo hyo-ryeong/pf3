@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.hide{
+    display: none;
+}
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder{ /* Webkit browser*/
+    color : transparent;
+}
+input:focus:-moz-input-placeholder,
+textarea:focus:-moz-input-placeholder{/* Mozilla Firefox 4 to 18 browser*/
+    color : transparent;
+}
+input:focus::-moz-input-placeholder,
+textarea:focus::-moz-input-placeholder{/* Mozilla Firefox 4 to 18 browser*/
+    color : transparent;
+}
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder{/* Ms browser*/
+    color : transparent;
+}
+.inner{
+    width: 95%;
+    margin: 0 auto;
+}
+.innerPadding{ /*   카멜케이스방식 : 첫자 소문자로 시작, 다른단어 첫자는 대문자로 시작*/
+    padding-top : 20px;
+    padding-bottom: 60px;
+}
+/*hn 태그 스타일링*/
+.h2{
+    font-size : 35px;
+    font-weight: 700;
+    font-family: 'Binggrae-Bold';
+}
+.h3{
+    font-size : 31px;
+    font-weight : 700;
+    font-family: 'Binggrae-Bold';
+}
+
+/*  flex*/
+.flex{
+    display: flex;
+}
+.flexBetween{
+    justify-content: space-between;
+}
+flexAround{
+    justify-content: space-around;
+}
+.flexEvenly{
+    justify-content: space-evenly;
+}
+.flexCenter{
+    justify-content: center;
+}
+.flexColumn{
+    flex-direction: column;
+}
+.flexAlignCenter{
+    align-items: center;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.br{
+    display: block;
+}
+.p{
+    line-height: 1.5;
+}
+/*  패딩*/
+.padding50{
+    padding: 50px;
+}
+
+/*버튼*/
+
+.btn1{
+    
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    font-size: 14px;
+}
